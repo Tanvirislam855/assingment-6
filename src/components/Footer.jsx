@@ -49,6 +49,19 @@ const Footer = () => {
             </div>
           </nav>
         </div>
+        <div className="border-t border-gray-700 mt-10 pt-6 px-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+  
+  {/* Left */}
+  <p>© 2026 Digitools. All rights reserved.</p>
+
+  {/* Right */}
+  <div className="flex gap-6 mt-4 md:mt-0">
+    <a href="#" className="hover:text-white">Privacy Policy</a>
+    <a href="#" className="hover:text-white">Terms of Service</a>
+    <a href="#" className="hover:text-white">Cookies</a>
+  </div>
+
+</div>
       </footer>
     </div>
   );
