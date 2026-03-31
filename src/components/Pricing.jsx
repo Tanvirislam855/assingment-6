@@ -80,7 +80,7 @@ const Pricing = () => {
         <div className="space-y-2">
           <div>
             <h2 className="text-xl font-bold">Enterprise</h2>
-            <p className="text-zinc-400">Enterprise</p>
+            <p className="text-zinc-400">For teams and businesses</p>
           </div>
           <h2>
             <span className="text-2xl font-bold">$99</span>
