@@ -9,10 +9,10 @@ const Pricing = () => {
         <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold ">Simple, Transparent Pricing</h2>
     <p className="text-zinc-500">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
         </div>
-    <div className="grid md:grid-cols-3 gap-6  bg-gray-100 md:max-w-5xl mx-auto">
+    <div className="grid md:grid-cols-3 gap-10  md:max-w-5xl mx-auto">
 
-      <div className="flex flex-col justify-between border border-zinc-300 rounded-xl p-4 lg:p-8">
-        <div className="flex flex-col space-y-4">
+      <div className="flex flex-col justify-between border border-zinc-300 rounded-xl p-4 lg:p-8 bg-gray-100">
+        <div className="flex flex-col space-y-4 ">
           <div>
             <h2 className="text-xl font-bold">Starter</h2>
             <p className="text-zinc-400">Perfect for getting started</p>
@@ -76,7 +76,7 @@ const Pricing = () => {
           <button className="btn w-full rounded-full ">Start Pro Trial</button>
         </div>
       </div>
-      <div className="flex flex-col justify-between border border-zinc-300 rounded-xl p-4 lg:p-8">
+      <div className="flex flex-col justify-between border border-zinc-300 rounded-xl p-4 lg:p-8  bg-gray-100">
         <div className="space-y-2">
           <div>
             <h2 className="text-xl font-bold">Enterprise</h2>

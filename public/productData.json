@@ -12,7 +12,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    "icon": "/assets/products/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "Monthly updates",
       "Commercial license"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041728.png"
+    "icon": "/assets/products/design-tool.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Commercial use",
       "No attribution"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/4300/4300059.png"
+    "icon": "assets/products/"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/942/942748.png"
+    "icon": "assets/products/operation.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    "icon": "/assets/products/portfolio.png"
   },
   {
     "id": 6,
@@ -87,6 +87,6 @@
       "Scheduler included",
       "Analytics dashboard"
     ],
-    "icon": "https://cdn-icons-png.flaticon.com/512/1041/1041728.png"
+    "icon": "/assets/products/social-media.png"
   }
 ]
