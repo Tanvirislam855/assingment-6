@@ -19,9 +19,9 @@ const Pricing = () => {
           </div>
           <h2>
             <span className="text-2xl font-bold">$0</span>
-            <span className="text-zinc-400">/month</span>
+            <span className="text-zinc-400">/Month</span>
           </h2>
-         <div>
+         <div className="text-gray-500">
          {
             [
                 "Access to 10 free tools",
@@ -53,7 +53,7 @@ const Pricing = () => {
           </div>
           <h2>
             <span className="text-2xl font-bold">$29</span>
-            <span className="text-white">/month</span>
+            <span className="text-white">/Month</span>
           </h2>
           <div className="flex flex-col space-y-3">
             {[
@@ -84,9 +84,9 @@ const Pricing = () => {
           </div>
           <h2>
             <span className="text-2xl font-bold">$99</span>
-            <span className="text-zinc-400">/month</span>
+            <span className="text-zinc-400">/Month</span>
           </h2>
-          <div>
+          <div className="text-gray-500">
           {[
             "Everything in Pro",
             "Team collaboration",
