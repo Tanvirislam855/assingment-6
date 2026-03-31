@@ -1,5 +1,4 @@
-import React from "react";
-import { AiFillInstagram } from "react-icons/ai";
+
 import { BsTwitterX } from "react-icons/bs";
 import { FaFacebookSquare } from "react-icons/fa";
 
@@ -10,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between container lg:max-w-7xl mx-auto text-neutral-content footer sm:footer-horizontal">
           <nav className="max-w-[300px]">
             <h2 className="text-3xl font-bold text-white">DigitTools</h2>
-            <p className="text-gray-500">Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+            <p className="text-gray-500">Premium digital tools for creators, professionals, and businesses. Work smarter  with our suite of powerful tools.</p>
           </nav>
           <nav>
             <h2 className=" text-xl font-bold text-white">Product</h2>

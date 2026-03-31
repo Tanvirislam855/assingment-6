@@ -1,12 +1,3 @@
-// import user_png from '../../../assets/user.png'
-// import package_png from '../../../assets/package.png'
-// import rocket_png from '../../../assets/rocket.png'
-// import user_png from './assets/user.png'
-// import package_png from './assets/package.png'
-// import rocket_png from '.assets/rocket.png'
-
-
-
 
 const Steps = () => {
     return (
@@ -16,29 +7,33 @@ const Steps = () => {
             <p className='text-zinc-500'>Start using premium digital tools in minutes, not hours.</p>
             </div>
             <div className='grid md:grid-cols-3 gap-4'>
-                <div className='border border-zinc-300 rounded-xl p-10 lg:p-20 flex flex-col items-center justify-center text-center relative '>
-                    {/* <img src={user_png} alt={user_png} /> */}
-                    <img src="/assets/user.png" alt="" />
+                <div className='border border-zinc-300 rounded-xl p-10 lg:p-20 flex flex-col items-center justify-center text-center relative'>
+                    
+                    <div className="w-24 h-24 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+                    <img src="/assets/user.png" alt="bg-purple-100 shadow-lg shadow-purple-200" />
+                    </div>
                     <h2 className='text-xl font-bold'>Create Account</h2>
                     <p className='text-zinc-500'>Sign up for free in seconds. No credit card required to get started.</p>
                     <p className='absolute top-4 right-4   rounded-full w-8 h-8 '> <span className='p-2  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full'>01</span> </p>
                 </div>
                 <div className='border border-zinc-300 rounded-xl p-10 flex flex-col items-center justify-center text-center relative'>
-                    {/* <img src={package_png} alt={package_png} /> */}
+                    
+                    <div className="w-24 h-24 rounded-full bg-purple-100 flex items-center justify-center mb-4">
                     <img src="/assets/package.png" alt="" />
+                    </div>
                     <h2 className='text-xl font-bold'>Choose Products</h2>
                     <p className='text-zinc-500'>Browse our catalog and select the tools that fit your needs.</p>
                     <p className='absolute top-4 right-4   rounded-full w-8 h-8 '> <span className='p-2  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full'>02</span> </p>
                 </div>
                 <div className='border border-zinc-300 rounded-xl p-10 flex flex-col items-center justify-center text-center relative'>
-                    {/* <img src={rocket_png} alt={rocket_png} /> */}
+                    
+                    <div className="w-24 h-24 rounded-full bg-purple-100 flex items-center justify-center mb-4">
                     <img src="/assets/rocket.png" alt="" />
+                    </div>
                     <h2 className='text-xl font-bold'>Start Creating</h2>
                     <p className='text-zinc-500'>Download and start using your premium tools immediately.</p>
-                    <p className='absolute top-4 right-4   rounded-full '> <span className='p-2  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full '>03</span> </p>
+                    <p className='absolute top-4 right-4 rounded-full'> <span className='p-2  bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full '>03</span> </p>
                 </div>
-                
-                
             </div>
         </div>
     );

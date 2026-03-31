@@ -9,6 +9,7 @@ const Banner = () => {
           <span className="text-[#4F39F6]">
             {/* { <RiFocus2Fill /> } */}
           </span>
+          <img src="/assets/point.png" alt="" />
           <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
             New: AI-Powered Tools Available
           </span>
@@ -23,7 +24,7 @@ const Banner = () => {
         </p>
         <div className="flex items-center  gap-2 mt-2">
         <button className="btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white ">Explore Products</button>
-        <button className="btn btn-primary btn-outline rounded-full hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white ">Watch Demo</button>
+        <button className="btn btn-primary btn-outline rounded-full hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white "><img src="/assets/Play.png" alt="" />Watch Demo</button>
         </div>
       </div>
       <div >

@@ -6,7 +6,7 @@ const Transform = () => {
         <div className='container lg:max-w-7xl mx-auto space-y-3 md:space-y-5 px-5 md:px-0'>
             <div className=' flex flex-col items-center justify-center  space-y-2'>
                 <h2 className='text-2xl md:text-4xl lg:text-6xl font-bold text-center'>Ready to Transform Your Workflow?</h2>
-                <p className='text-center'>Join thousands of professionals who are already using Digitools to work smarter.Start your free trial today.</p>
+                <p className='text-center'>Join thousands of professionals who are already using Digitools to work smarter. <br />Start your free trial today.</p>
             </div>
             <div className='flex flex-col items-center justify-center space-y-2'>
                 <div className='flex gap-2 md:gap-3'>
