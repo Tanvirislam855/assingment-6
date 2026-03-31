@@ -25,8 +25,7 @@ const Product = ({ item, cartData, setCartData }) => {
       <div>
       
       <p
-        className={`absolute right-2 top-2 inline-flex  rounded-full px-3 md:py-1 ${item.tag === "popular" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-[#E1E7FF]" : item.tag === "best seller" ? "bg-[#FEF3C6] text-yellow-700" : item.tag === "new" ? "bg-[#DBFCE7]" : ""}`}
-      >
+        className={`absolute right-2 top-2 inline-flex  rounded-full px-3 md:py-1 ${item.tag === "popular" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-[#E1E7FF]" : item.tag === "best seller" ? "bg-[#FEF3C6] text-yellow-700" : item.tag === "new" ? "bg-[#DBFCE7]" : ""}`}>
         {item.tag}
       </p>
       <img
