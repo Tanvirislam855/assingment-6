@@ -56,9 +56,9 @@ const Navbar = ({cartData}) => {
             </div>
           </div>
         </div>
-        <div  className="flex items-center gap-2">
+        <div  className="flex items-center gap-2 mr-5">
           <p className="font-bold cursor-pointer">Login</p>
-          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white">Get Started</button>
+          <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full px-3 py-2">Get Started</button>
         </div>
       </div>
       </div>
