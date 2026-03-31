@@ -38,12 +38,15 @@ const Footer = () => {
           <nav>
             <h2 className="text-xl font-bold text-white">Social Links</h2>
             <div className="flex gap-2">
-            {/* <a href=""> <className="text-3xl p-1 bg-white rounded-full text-black" /></a> */}
             <a href="">      
-               <FaFacebookSquare className="text-3xl p-1 bg-white rounded-full text-black" />
+               <i class="fa-brands fa-facebook text-3xl p-1 bg-white rounded-full text-black"></i>
             </a>
             <a href="">
-            <BsTwitterX className="text-3xl p-1 bg-white rounded-full text-black" />
+            <i class="fa-brands fa-linkedin text-3xl bg-white rounded-full text-black p-1"></i>
+            </a>
+            <a href="">
+            <i class="fa-brands fa-instagram text-3xl bg-white rounded-full text-black p-1 "></i>
+            
             </a>
             </div>
           </nav>
