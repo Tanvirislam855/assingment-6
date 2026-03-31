@@ -23,7 +23,7 @@ const Banner = () => {
         </p>
         <div className="flex items-center  gap-2 mt-2">
         <button className="btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white ">Explore Products</button>
-        <button className="btn btn-primary btn-outline rounded-full hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white ">Explore Products</button>
+        <button className="btn btn-primary btn-outline rounded-full hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:text-white ">Watch Demo</button>
         </div>
       </div>
       <div >
