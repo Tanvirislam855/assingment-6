@@ -1,6 +1,5 @@
-// import React from "react";
+
 import React from "react";
-// import emptyPng from "../../../assets/products/shopping-cart.png";
 import { MdShoppingCart } from "react-icons/md";
 import { toast } from "react-toastify";
 

@@ -1,4 +1,4 @@
-// import React from "react";
+
 import React from "react";
 import { GiCheckMark } from "react-icons/gi";
 
@@ -29,8 +29,7 @@ const Pricing = () => {
                 "Community support",
                 "1 project per month"
               ].map((feature,i)=>(
-                <p className="flex items-center gap-2"><span className="bg-green-100 rounded-full p-1">
-                <GiCheckMark className="text-green-300 text-xs" />
+                <p className="flex items-center gap-2"><span className="bg-green-100 rounded-full p-1"><GiCheckMark className="text-green-300 text-xs" />
               </span>
               {feature}
               </p>

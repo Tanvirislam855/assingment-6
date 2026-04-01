@@ -1,5 +1,3 @@
-//  import bannerImg from '../../public/assets/';
-//  import { RiFocus2Fill } from "react-icons/ri";
 
 const Banner = () => {
   return (
@@ -7,7 +5,6 @@ const Banner = () => {
       <div className="max-w-[500px] flex flex-col items-center md:items-start md:space-y-5 lg:space-y-6">
         <p className="inline-flex items-center text-lg gap-1 md:p-1 rounded-full bg-linear-to-r from-[#4F39F6]/20 to-[#9514FA]/20 ">
           <span className="text-[#4F39F6]">
-            {/* { <RiFocus2Fill /> } */}
           </span>
           <img src="/assets/point.png" alt="" />
           <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">

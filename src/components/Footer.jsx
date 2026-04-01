@@ -13,27 +13,27 @@ const Footer = () => {
           </nav>
           <nav>
             <h2 className=" text-xl font-bold text-white">Product</h2>
-            <a className="link link-hover">Features</a>
-            <a className="link link-hover">Pricing</a>
-            <a className="link link-hover">Templates</a>
-            <a className="link link-hover">Integrations</a>
+            <a className="link link-hover text-gray-500">Features</a>
+            <a className="link link-hover text-gray-500">Pricing</a>
+            <a className="link link-hover text-gray-500">Templates</a>
+            <a className="link link-hover text-gray-500">Integrations</a>
             
           </nav>
           
           <nav>
             
             <h2 className="text-xl font-bold text-white">Company</h2>
-            <a className="link link-hover">About</a>
-            <a className="link link-hover">Blog</a>
-            <a className="link link-hover">Careers</a>
-            <a className="link link-hover">Press</a>
+            <a className="link link-hover text-gray-500">About</a>
+            <a className="link link-hover text-gray-500">Blog</a>
+            <a className="link link-hover text-gray-500">Careers</a>
+            <a className="link link-hover text-gray-500">Press</a>
           </nav>
           <nav>
             <h2 className="text-xl font-bold text-white">Resources</h2>
-            <a className="link link-hover">Documentation</a>
-            <a className="link link-hover">Help Center</a>
-            <a className="link link-hover">Community</a>
-            <a className="link link-hover">Contact</a>
+            <a className="link link-hover text-gray-500">Documentation</a>
+            <a className="link link-hover text-gray-500">Help Center</a>
+            <a className="link link-hover text-gray-500">Community</a>
+            <a className="link link-hover text-gray-500">Contact</a>
           </nav>
           <nav>
             <h2 className="text-xl font-bold text-white">Social Links</h2>

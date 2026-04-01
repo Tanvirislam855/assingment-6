@@ -28,11 +28,7 @@ const Product = ({ item, cartData, setCartData }) => {
         className={`absolute right-2 top-2 inline-flex  rounded-full px-3 md:py-1 ${item.tag === "popular" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-[#E1E7FF]" : item.tag === "best seller" ? "bg-[#FEF3C6] text-yellow-700" : item.tag === "new" ? "bg-[#DBFCE7]" : ""}`}>
         {item.tag}
       </p>
-      <img
-        className="w-16 bg-base-100 shadow-sm p-2 rounded-full"
-        src={item.icon}
-        alt=""
-      />
+      <img className="w-16 bg-base-100 shadow-sm p-2 rounded-full"src={item.icon}alt=""/>
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">{item.name}</h1>
       <p className="text-sm md:text-lg text-zinc-500">{item.description}</p>
       <div className="flex items-center gap-1">
@@ -40,22 +36,20 @@ const Product = ({ item, cartData, setCartData }) => {
           <span className="text-3xl font-bold">${item.price}</span>
         </p>
         <p>
-          / <span className="text-zinc-500">{item.period}</span>
+           <span className="text-zinc-500">{item.period}</span>
         </p>
       </div>
       {item.features.map((feature, i) => (
         <div key={i}>
           <p className="inline-flex items-center gap-1 text-zinc-500">
-            <GiCheckMark className="text-green-500" />
-            {feature}
+            <GiCheckMark className="text-green-500" />{feature}
           </p>
         </div>
       ))}
       </div>
       <button
         onClick={() => handleAbbBtn(item)}
-        className={`btn w-full rounded-full ${btnText === "add" ? " btn-primary " : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"}`}
-      >
+        className={`btn w-full rounded-full ${btnText === "add" ? " btn-primary " : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white"}`}>
         {btnText === "add" ? "added to cart" : "Buy Now"}
       </button>
     </div>

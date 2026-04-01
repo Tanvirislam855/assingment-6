@@ -1,16 +1,49 @@
-# React + Vite
+🛒 DigiTools – Digital Products Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive web application built to explore and purchase digital tools such as design assets, productivity software, and developer resources. This project was developed as part of an academic course assignment to demonstrate front-end development skills and UI/UX design principles.
 
-Currently, two official plugins are available:
+📌 Overview :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+DigiTools is a single-page application where users can browse different categories of digital products and manage their selections easily. The platform focuses on providing a clean interface with smooth interactions, allowing users to add tools to their cart and review them before checkout.
 
-## React Compiler
+⚙️ Technologies Used :
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+React.js (Functional Components & Hooks)
+Tailwind CSS + DaisyUI
+JavaScript (ES6+)
+React Toastify (for notifications)
+JSON (for product data handling)
 
-## Expanding the ESLint configuration
+🚀 Core Features :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Fully responsive design (Mobile, Tablet, Desktop friendly)
+Interactive navigation bar with real-time cart item count
+Clean hero section with call-to-action buttons
+Product listing with categorized tags (e.g., New, Popular)
+Add to Cart / Remove from Cart functionality
+Dynamic cart system with total calculation
+Toast notifications for user actions
+Smooth UI transitions and user-friendly layout
+Structured pricing and feature sections
+Modern footer design
+
+🎯 Additional Functionalities:
+
+Live cart update without page reload
+Temporary success message on product actions
+Efficient state management using React Hooks
+Organized component structure for scalability
+
+📚 Learning Outcome :
+
+Through this project, I improved my understanding of:
+
+Component-based architecture in React
+State management and event handling
+Responsive design using Tailwind CSS
+Real-world UI/UX implementation
+Managing and rendering dynamic data
+
+📝 Conclusion :
+
+This project reflects my ability to build a functional and visually appealing web application using modern technologies. It demonstrates both my technical skills and attention to user experience.
